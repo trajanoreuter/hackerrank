@@ -237,6 +237,20 @@ function rotateLeft (d, arr) {
   return arr
 }
 
+function matchingStrings (strings, queries) {
+  return queries.map((query) => {
+    const result = strings.map((string) => {
+      if (string === query) {
+        return 1
+      }
+
+      return 0
+    })
+
+    return result.reduce((acc, value) => acc + value, 0)
+  })
+}
+
 module.exports = {
   sum,
   diagonalDifference,
@@ -251,4 +265,5 @@ module.exports = {
   reverseArray,
   hourglassSum,
   rotateLeft,
+  matchingStrings,
 }
