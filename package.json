@@ -1,0 +1,29 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "Hackerrank challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js"
+  },
+  "engines": {
+    "node": ">=16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trajanoreuter/hackerrank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trajanoreuter/hackerrank/issues"
+  },
+  "homepage": "https://github.com/trajanoreuter/hackerrank#readme",
+  "dependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.24.1"
+  }
+}
